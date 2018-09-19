@@ -9,15 +9,15 @@ metadata:
   documentationUrl: "http://strimzi.io/docs/master/"
   providerDisplayName: "Red Hat, Inc."
   dependencies:
-    - "docker.io/strimzi/topic-operator:0.7.0-rc1"
-    - "docker.io/strimzi/entity-operator-stunnel:0.7.0-rc1"
-    - "docker.io/strimzi/user-operator:0.7.0-rc1"
-    - "docker.io/strimzi/cluster-operator:0.7.0-rc1"
-    - "docker.io/strimzi/kafka:0.7.0-rc1"
-    - "docker.io/strimzi/kafka-stunnel:0.7.0-rc1"
-    - "docker.io/strimzi/kafka-init:0.7.0-rc1"
-    - "docker.io/strimzi/zookeeper-stunnel:0.7.0-rc1"
-    - "docker.io/strimzi/zookeeper:0.7.0-rc1"
+    - "docker.io/strimzi/topic-operator:0.7.0"
+    - "docker.io/strimzi/entity-operator-stunnel:0.7.0"
+    - "docker.io/strimzi/user-operator:0.7.0"
+    - "docker.io/strimzi/cluster-operator:0.7.0"
+    - "docker.io/strimzi/kafka:0.7.0"
+    - "docker.io/strimzi/kafka-stunnel:0.7.0"
+    - "docker.io/strimzi/kafka-init:0.7.0"
+    - "docker.io/strimzi/zookeeper-stunnel:0.7.0"
+    - "docker.io/strimzi/zookeeper:0.7.0"
 plans:
   - name: default
     description: Persistent deployment of Apache Kafka on Openshift
